@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="index.html">
+        <meta name="keywords" content="huiswerk, mijncv, contact">
+        <meta name="author" content="Kristof Visterin">
+        <link rel="stylesheet" href="../CSS/style.css" type="text/css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+        <title>huiswerk mijn cv</title>
+        
+
+    </head>
+
+<body class="background">
+
+    <header>
+
+        <h1 id="h1">Contact Pagina</h1>
+
+        <nav class="navigatie">
+            <a href="../index.html">Home</a>
+            <a href="mijncv.html">Mijn CV</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+    <div>
+        <form action="https://formspree.io/f/mzzkppze" method="POST">
+            <fieldset class="veld">
+            <legend class="legende">Contact info</legend>
+            
+            <table id="tabelcontact">
+                <tbody>
+                    <tr id="">
+                        <td><b>Voornaam</b></td>
+                        <td><input type="naam" name="Naam" placeholder="Voornaam" required></td>
+                    </tr>
+                    <tr>
+                        <td><b>Achternaam</b></td>
+                        <td><input type="achternaam" name="achternaam" placeholder="achternaam" required></td>
+                    </tr>
+                    <tr>
+                        <td><b>Uw e-mail</b></td>
+                        <td><input type="email" name="email" placeholder="E-mail" required></td>
+                    </tr>
+                    <tr>
+                        <td><b>Geboortedatum</b></td>
+                        <td><input type="date" name="geboortedatum" max="2025-12-31" required></td>
+                    </tr>
+                    <tr>
+                        <td><b>Telefoonnummer</b></td>
+                        <td><input type="tel" name="telefoonnummer" placeholder="Telefoonnummer" required></td>
+                    </tr>
+                    <tr>
+                    <td><b>Geslacht</b></td>
+                    <td>
+                        <select name="Geslacht">
+                            <option value="Blank"></option>
+                            <option value="Man">Man</option>
+                            <option value="Vrouw">Vrouw</option>
+                            <option value="Zeg ik liever niet">Zeg ik liever niet</option>
+                        </select>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td><b>Land</b></td>
+                    <td>
+                        <select name="Land">
+                            <option value="Blank"></option>
+                            <option value="Nederland">Nederland</option>
+                            <option value="België">België</option>
+                            <option value="Duitsland">Duitsland</option>
+                            <option value="Frankrijk">Frankrijk</option>
+                        </select>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td><b>Opmerkingen</b></td>
+                        <td><textarea name="opmerkingen" rows="4" cols="50" placeholder="Stel uw vraag..." required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td><button type="submit"><strong>Verzenden</strong></button></td>
+                    </tr>
+                </tbody>
+            </table>
+            </fieldset>
+            
+</form>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Kristof Visterin</p>
+    </footer>
+</body>
+
+</html>
